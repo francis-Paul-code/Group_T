@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ead08b9-c4b3-48fc-b9bc-5a2546cf76c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CherishGiftShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaLangTutorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tutorial/Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tutorial/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/oop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CherishGiftShopProcedural.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GroupT_BusinessSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LanternaDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaLangTutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaLangTutorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tutorial/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tutorial/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tutorial/Variable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +47,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GroupT_BusinessSimulator.executor": "Run",
     "Application.JavaLangTutorial.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "cherish",
@@ -53,6 +61,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="JavaLangTutorial" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="JavaLangTutorial" />
+      <module name="cherish_gift_shop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,11 +86,33 @@
       <option name="presentableId" value="Default" />
       <updated>1787819076249</updated>
       <workItem from="1787819078187" duration="56000" />
-      <workItem from="1787819179745" duration="4199000" />
+      <workItem from="1787819179745" duration="9590000" />
+      <workItem from="1787847561161" duration="16358000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LanternaDisplay.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LanternaDisplay.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LanternaDisplay.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

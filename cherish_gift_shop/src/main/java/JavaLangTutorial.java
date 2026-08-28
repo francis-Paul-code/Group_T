@@ -4,7 +4,8 @@ public class JavaLangTutorial
 {
 	static void main(String[] args)
 	{
-        variable();
+       LanternaDisplay disp =  new LanternaDisplay();
+
 	}
 
     private static void variable() {

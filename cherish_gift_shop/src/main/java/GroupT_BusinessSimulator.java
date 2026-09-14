@@ -100,11 +100,11 @@ public class GroupT_BusinessSimulator {
             Item itm = items.get(i);
 
             if(itm.discount.purchase_requirement == 0){
-                System.out.println(itm.name + " x" + itm.quantity + "= UGX " + temp[i] + "(No discount )");
+                System.out.println(itm.name + " x" + itm.quantity + "= UGX " + temp[i] + " ( No discount )");
                 continue;
             }
             String note1 = (itm.quantity > itm.discount.purchase_requirement) ? itm.discount.details : String.format("no discount - fewer than %d", itm.discount.purchase_requirement );
-            System.out.println(itm.name + " x" + itm.quantity + "= UGX " + temp[i] + "(" + note1 + ")");
+            System.out.println(itm.name + " x" + itm.quantity + "= UGX " + temp[i] + " ( " + note1 + " )");
         }
         System.out.println("======================================");
         System.out.println("GRAND TOTAL: UGX " + grandTotal);

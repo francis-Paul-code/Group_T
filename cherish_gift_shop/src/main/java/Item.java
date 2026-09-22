@@ -1,33 +1,23 @@
 public class Item {
     private String name;
-    private String description;
-    private String category;
-    private Integer unit_price;
-    private boolean discounted = false;
-    private Discount discount;
+    private Double price;
+    private PercentDiscountItem discount;
 
-    public Item(String name, String category, Integer unit_price) {
+    public Item(String name, Double price) {
+        if (price <= 0) {
+            throw new IllegalArgumentException("Price must be greater than zero");
+        }
+
         this.name = name;
-        this.category = category;
-        this.unit_price = unit_price;
-        this.description = "";
+        this.price = price;
 
     }
 
-    // discounts
-
-    public Discount getDiscount() {
-        return discount;
-    }
-
-    public void setDiscount(String description, Integer rate, Double discounted_amount, Integer prerequisite_purchase) {
-        Discount discount = new Discount(description, rate, discounted_amount, prerequisite_purchase);
-        this.discount = discount;
-        this.discounted = true;
-    }
-
-    public boolean isDiscounted() {
-        return discounted;
+    public double calculateTotal(int quantity) {
+        if (quantity < 0) {
+            throw new IllegalArgumentException("Quantity cannot be negative");
+        }
+        return price * quantity;
     }
 
     // getters and setters
@@ -40,29 +30,13 @@ public class Item {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public Double getUnit_price() {
+        return price;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    public void setPrice(Double price) {
 
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-    public Integer getUnit_price() {
-        return unit_price;
-    }
-
-    public void setUnit_price(Integer unit_price) {
-
-        this.unit_price = unit_price;
+        this.price = price;
     }
 
 }
